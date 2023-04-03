@@ -1,0 +1,184 @@
+<link rel="stylesheet" href="assets/css/animation.css">
+
+<div class="containernav">
+    <div class ="navbar" id="navbar">
+        <a class="logo" href="#"><img src="Assets/Image/HimaLogos.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#" style="--i:1">Home</a></li>
+                    <li><a href="#" style="--i:2">Informasi</a></li>
+                    <li><a href="#" style="--i:3">Kabinet</a></li>
+                    <li><a href="#" style="--i:4">Peminjaman</a></li>
+                    <li><a href="#" style="--i:5">About</a></li>
+                    <li><a href="#" style="--i:6">Pemilu</a></li>
+                </ul>
+            </nav>
+            
+            <a class="cta" href="#">Masuk</a>
+            <p class="menu cta">Menu</p>
+    </div>
+
+
+
+    <style>
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body{
+        margin: 0;
+      }
+      
+      .navbar{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        padding: 0.5% 3%;
+        position: fixed;
+        background-color: white;
+        border-bottom: 2px solid orange;
+        box-shadow: 0 4px 2px -2px rgb(177, 175, 175);
+        top: 0;
+        z-index: 100;
+      }
+      
+      .sticky {
+        width: 100%;
+      }
+      
+      
+      nav{
+        flex: 1;
+      }
+      
+      nav ul li{
+        display: inline-block;
+        list-style: none;
+      }
+      
+      .logo {
+        cursor: pointer;
+        margin: -15px 0 -15px -25px;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+      }
+      
+      .nav__links a,
+      .cta,
+      .overlay__content a {
+        font-family: inherit;
+        font-weight: 500;
+        color: #000000;
+        text-decoration: none;
+        opacity: 0;
+        animation: slideTop .5s ease forwards;
+        animation-delay: calc(.15s * var(--i)) ;
+      }
+      
+      .nav__links {
+        list-style: none;
+        display: flex;
+        margin-left: -25px;
+      }
+      
+      .nav__links li {
+        padding: 0px 20px;
+        font-size: 20px;
+      }
+      
+      
+      .nav__links li a:hover {
+        color: #0088a9;
+      }
+    
+      .active{
+        color: #0088a9;
+      }
+    
+    
+    
+      .cta {
+        padding: 9px 25px;
+        background-color:rgb(255, 123, 0);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease 0s;
+      }
+      
+      .cta:hover {
+        background-color: rgba(0, 136, 169, 0.8);
+      }
+      
+      /* Mobile Nav */
+      
+      .menu {
+        display: none;
+      }
+      
+      .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: #24252a;
+        overflow-x: hidden;
+        transition: width 0.5s ease 0s;
+      }
+      
+      .overlay--active {
+        width: 100%;
+      }
+      
+      .overlay__content {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .overlay a {
+        padding: 15px;
+        font-size: 36px;
+        display: block;
+        transition: color 0.3s ease 0s;
+      }
+      
+      .overlay a:hover,
+      .overlay a:focus {
+        color: #0088a9;
+      }
+      .overlay .close {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+        color: #edf0f1;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .overlay a {
+          font-size: 20px;
+        }
+        .overlay .close {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+        }
+      }
+      
+      @media only screen and (max-width: 800px) {
+        .nav__links,
+        .cta {
+          display: none;
+        }
+        .menu {
+          display: initial;
+        }
+      }
+    </style>

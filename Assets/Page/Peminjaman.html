@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="../css/Peminjaman.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="containernav">
+        <div class ="navbar" id="navbar">
+            <a class="logo" href="#"><img src="../Image/HimaLogos.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="../../index.html" style="--i:1">Home</a></li>
+                    <li><a href="../Page/Informasi.html" style="--i:2">Informasi</a></li>
+                    <li><a href="../Page/Kabinet.html" style="--i:3">Kabinet</a></li>
+                    <li><a class="active" style="--i:4">Peminjaman</a></li>
+                    <li><a href="../Page/About.html" style="--i:5">About</a></li>
+                    <li><a href="../Page/Pemilu.html" style="--i:6">Pemilu</a></li>
+                </ul>
+            </nav>
+
+            <a class="cta" href="#">Masuk</a>
+            <p class="menu cta">Menu</p>
+        </div>
+    </div>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="../Image/InventiryIcon.png" alt="">
+        </div>
+
+        <div class="content">
+            <h1>HIVentory</h1>
+            <h3 class="h3-2">Inventory HIMA Rekayasa Perangkat Lunak </h3>
+            <P>Berbagai barang yang tersedia di HIMA RPL untuk menunjang fasilitas dalam pembelajaran, kepentingan kegiatan internal maupun external.
+                Semua barang merupakan fasilitas bersama dan seluruh mahasiswa Universitas Pendidikan Indonesia bisa meminjamnya dengan syarat dan ketentuan tertentu</P>
+
+            <a href="#" class="btn-light">Hubungi Kami</a>
+            <a href="#" class="btn-dark">Pinjam Sekarang</a>
+        </div>
+    </section>
+
+    <section id="sk">
+        <div class="sk-container">
+            <div class="sk-box">
+                <div class="sk-img">
+                    <img src="../Image/Syarat.png">
+                </div>
+
+                 <div class="sk-text-1">
+                    <ol>
+                        <li>Melakukan Login dan Mengisi Biodata Sejujurnya</li>
+                        <li>Mahasiswa Universitas Pendidikan Indonesia</li>
+                        <li>Merupakan Mahasiswa Aktif Paling Maksimal Sedang di Semester 12</li>
+                        <li>Memiliki KTM</li>
+                 </div>
+             </div>
+        </div>
+
+        <div class="sk-container">
+            <div class="sk-box">
+                <div class="sk-img">
+                    <img src="../Image/Ketentuan.png">
+                </div>
+
+                <div class="sk-text-2">
+                    <ol>
+                        <li>Maksimal Peminjaman 7 Hari</li>
+                        <li>Sistem Antrian Berlaku dan Perpanjangan Bisa Dilakukan Jika Tidak Ada Antrian</li>
+                        <li>Kerusakan dan Keterlambatan akan Dikenakan Biaya Denda</li>
+                        <li>Harap Melapor Jika Terjadi Kerusakan Pada Barang</li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="elementor">
+        <div class="elementor-container">
+            <div class="elementor-box">
+                <div class="elementor-img">
+                    <img src="../Image/Monitor01.png">
+                </div>
+                <div class="elementor-text">
+                
+                <div class="bulatan"></div>
+                    <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                </div>
+                
+                <div class="button">
+                    <button class="primary-button" type="submit" onclick="openPopup()"><a href="#" >Boking</a></button>
+                    <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                </div>
+            </div>
+        </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <div class="bulatan"></div>
+                        <a href="#" class="Elementor-title">Infokus HP-F200 HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a >Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <div class="bulatan-not"></div>
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a >Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Monitor01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Monitor LG X-21</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="elementor-box">
+                    <div class="elementor-img">
+                        <img src="../Image/Infokus01.png">
+                    </div>
+                    <div class="elementor-text">
+                        <a href="#" class="Elementor-title">Infokus RGX-50 Full HD</a>
+                    </div>
+                    <div class="button">
+                        <button class="primary-button" type="submit" onclick="openPopup()"><a href="#">Boking</a></button>
+                        <button class="secondary-button" type="submit" onclick="openPopup()"><a href="#">Pinjam</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elementor-container">
+                <div class="popup" id="popupbg">
+                    <div class="pop-up" id="popup">
+                        <h2>Thank You</h2>
+                        <p>Barangmu Sudah Selesai Dikonfirmasi, Silahkan Ambil di Ruang Sekre</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-------Footer Start------->
+    <footer>
+        <p>HIMA RPL</p>
+        <p>For More Info - Click on the Link Below to Follow and Get Update HIMA RPL</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+        </div>
+        <p class="end">CopyRight By HIMA RPL</p>
+    </footer>
+
+        <script src="../JS/animation.js"></script>
+
+</body>
+</html>
